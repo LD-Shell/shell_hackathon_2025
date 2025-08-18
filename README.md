@@ -152,6 +152,7 @@ The prototype guides the user through a simple, three-step workflow powered by s
     
     # Run the Streamlit app
     streamlit run app.py
+    
     ```
 
 * **Step 1: Setup & Upload**: The user configures the environment, choosing between CPU and GPU (if a CUDA-enabled device is available), and uploads their data as a CSV file.
