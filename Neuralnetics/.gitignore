@@ -1,0 +1,6 @@
+# Ignore all pickle files
+*.pkl
+models_full/*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

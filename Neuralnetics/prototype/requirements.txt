@@ -1,0 +1,12 @@
+# requirements.txt
+
+streamlit
+pandas
+numpy
+joblib
+numexpr
+
+# For GPU support (optional)
+# Make sure you have a compatible CUDA version installed first.
+# See: https://pytorch.org/get-started/locally/
+torch

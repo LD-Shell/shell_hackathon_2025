@@ -1,0 +1,1001 @@
+[
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 0.95,
+      "average_before_softmax": true,
+      "random_state": 18
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 12.299452351490839,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.6542006421804585,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 11.828524496985793,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.489863324214369,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 1.0251649025603569,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.815800398187766,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 10.945316401756894,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 18.99174083189239,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 12.649426134520949,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 4.746661327793372,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp0.95_avgTrue_s18/submission_n32_temp0.95_avgTrue_s18.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 0.95,
+      "average_before_softmax": true,
+      "random_state": 22
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 12.241093548840581,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.6814305003305146,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 11.935136668584413,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.509664590979104,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9856345496989218,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.9722766225728074,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 9.564131994321844,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 19.258948727134335,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.566418369894361,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.056087525521968,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp0.95_avgTrue_s22/submission_n32_temp0.95_avgTrue_s22.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 0.95,
+      "average_before_softmax": true,
+      "random_state": 24
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 10.367806320992427,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.861400251311797,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 11.885472085109544,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.358359377676082,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9594703682619834,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.827222325213495,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 10.656786538353904,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 19.25092751641081,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.744502773749767,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.1231533460062755,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp0.95_avgTrue_s24/submission_n32_temp0.95_avgTrue_s24.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.0,
+      "average_before_softmax": true,
+      "random_state": 18
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 14.13531256319395,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.638643976889825,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 12.408716244154604,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.99348685798946,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9066197470074505,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 5.035125514117189,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 11.051428368750893,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 18.769759503496868,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 12.525317920269272,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 4.77530760515209,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.0_avgTrue_s18/submission_n32_temp1.0_avgTrue_s18.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.0,
+      "average_before_softmax": true,
+      "random_state": 22
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 13.386227355694603,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.676061268212074,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 12.522782237543172,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 6.16444160881353,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9071149990351449,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 5.468178892427339,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 10.836396618901436,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 18.87700052169905,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.23690806075249,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.044093750434422,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.0_avgTrue_s22/submission_n32_temp1.0_avgTrue_s22.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.0,
+      "average_before_softmax": true,
+      "random_state": 24
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 11.807158679815984,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.846054735121652,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 12.67077353688794,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.692793134944978,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.8877046645090564,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 5.290504269685185,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 10.556727656425464,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 18.72231290579861,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.229428150738565,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.155492913672885,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.0_avgTrue_s24/submission_n32_temp1.0_avgTrue_s24.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.05,
+      "average_before_softmax": true,
+      "random_state": 18
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 12.1510878782636,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.654843715066953,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 11.946236866903554,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.479276770189578,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 1.0293447749000517,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.812337391997808,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 11.026203569155085,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 19.09101624714565,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 12.848349194317702,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 4.748216973261337,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.05_avgTrue_s18/submission_n32_temp1.05_avgTrue_s18.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.05,
+      "average_before_softmax": true,
+      "random_state": 22
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 12.134802980249841,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.686117147583053,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 12.057507733806624,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.498844800310402,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9939795373634788,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.96547312814195,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 9.636048850595854,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 19.369511370985006,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.804743035758625,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.058386819618461,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.05_avgTrue_s22/submission_n32_temp1.05_avgTrue_s22.csv"
+  },
+  {
+    "config": {
+      "n_estimators": 32,
+      "softmax_temperature": 1.05,
+      "average_before_softmax": true,
+      "random_state": 24
+    },
+    "targets": [
+      {
+        "target": "BlendProperty1",
+        "num_feats": 103,
+        "train_mape": 10.275265822294534,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty1/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty1/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty1/preds_BlendProperty1.csv"
+        }
+      },
+      {
+        "target": "BlendProperty2",
+        "num_feats": 110,
+        "train_mape": 4.861917681094248,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty2/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty2/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty2/preds_BlendProperty2.csv"
+        }
+      },
+      {
+        "target": "BlendProperty3",
+        "num_feats": 97,
+        "train_mape": 12.006991227419048,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty3/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty3/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty3/preds_BlendProperty3.csv"
+        }
+      },
+      {
+        "target": "BlendProperty4",
+        "num_feats": 103,
+        "train_mape": 5.3609905898441115,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty4/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty4/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty4/preds_BlendProperty4.csv"
+        }
+      },
+      {
+        "target": "BlendProperty5",
+        "num_feats": 96,
+        "train_mape": 0.9745583975483181,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty5/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty5/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty5/preds_BlendProperty5.csv"
+        }
+      },
+      {
+        "target": "BlendProperty6",
+        "num_feats": 95,
+        "train_mape": 4.822239319535594,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty6/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty6/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty6/preds_BlendProperty6.csv"
+        }
+      },
+      {
+        "target": "BlendProperty7",
+        "num_feats": 100,
+        "train_mape": 10.726658035594774,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty7/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty7/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty7/preds_BlendProperty7.csv"
+        }
+      },
+      {
+        "target": "BlendProperty8",
+        "num_feats": 144,
+        "train_mape": 19.364244680470698,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty8/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty8/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty8/preds_BlendProperty8.csv"
+        }
+      },
+      {
+        "target": "BlendProperty9",
+        "num_feats": 117,
+        "train_mape": 11.985194699322163,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty9/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty9/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty9/preds_BlendProperty9.csv"
+        }
+      },
+      {
+        "target": "BlendProperty10",
+        "num_feats": 97,
+        "train_mape": 5.1265469702185165,
+        "paths": {
+          "train_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty10/train.csv",
+          "test_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty10/test.csv",
+          "preds_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/BlendProperty10/preds_BlendProperty10.csv"
+        }
+      }
+    ],
+    "submission_csv": "./raw_FE/n32_temp1.05_avgTrue_s24/submission_n32_temp1.05_avgTrue_s24.csv"
+  }
+]

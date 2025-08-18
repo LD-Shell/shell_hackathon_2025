@@ -1,0 +1,28 @@
+{
+  "features": [
+    "sqrt(Component4_fraction)*Component5_fraction",
+    "exp(Component1_fraction)*exp(Component2_fraction)",
+    "Component3_fraction*exp(Component3_Property2)",
+    "Component5_fraction*exp(Component5_Property2)",
+    "Component5_fraction",
+    "Component4_Property2*Component4_fraction**2",
+    "Component2_fraction*Component4_Property2",
+    "Component4_fraction*exp(Component4_Property2)",
+    "Component1_Property2*Component1_fraction",
+    "Component4_Property2*Abs(Component3_Property6)",
+    "Component2_fraction**3*Component4_fraction",
+    "Component4_Property2*Component5_fraction**2",
+    "Component4_Property2",
+    "Component4_Property2/Component4_fraction",
+    "Component3_Property2*Component3_fraction",
+    "Component2_Property2*Component2_fraction",
+    "Component1_Property2*Component5_fraction**2",
+    "sqrt(Component2_fraction)*sqrt(Component4_fraction)",
+    "Component1_fraction**3*exp(Component1_Property2)",
+    "Component5_Property2*Component5_fraction",
+    "Component3_fraction",
+    "Component2_fraction*Component5_Property2",
+    "exp(Component4_fraction)*exp(Component5_fraction)"
+  ],
+  "cutoff_pct": 0.4225
+}

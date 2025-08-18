@@ -1,0 +1,17 @@
+{
+  "features": [
+    "Component2_fraction",
+    "Component2_Property5",
+    "Component1_Property5*sqrt(Component1_fraction)",
+    "Component1_Property5",
+    "Component3_Property5*Component3_fraction**3",
+    "Component3_Property5",
+    "Component1_fraction",
+    "Component3_Property5*exp(Component4_Property10)",
+    "Component3_Property5*Component4_fraction**3",
+    "Component3_fraction**3*exp(Component3_Property5)",
+    "Component1_fraction**3*Abs(Component2_Property10)",
+    "sqrt(Component1_fraction)*Component3_fraction"
+  ],
+  "cutoff_pct": 0.075
+}

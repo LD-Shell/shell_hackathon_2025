@@ -1,0 +1,11 @@
+target,n_estimators,softmax_temperature,average_before_softmax,random_state,device,n_feats,train_mape_%,model_path
+BlendProperty1,16,1.0,True,0,cuda,29,5.9919996,models_full/model_BlendProperty1.pkl
+BlendProperty10,16,1.0,True,0,cuda,61,6.0446825,models_full/model_BlendProperty10.pkl
+BlendProperty2,32,1.05,True,22,cuda,110,4.740435,models_full/model_BlendProperty2.pkl
+BlendProperty3,16,1.0,True,0,cuda,45,10.226235,models_full/model_BlendProperty3.pkl
+BlendProperty4,32,1.0,True,20,cuda,103,5.7784753,models_full/model_BlendProperty4.pkl
+BlendProperty5,16,1.0,True,0,cuda,12,0.7509377,models_full/model_BlendProperty5.pkl
+BlendProperty6,16,1.0,True,0,cuda,26,4.1046524,models_full/model_BlendProperty6.pkl
+BlendProperty7,16,1.0,True,0,cuda,31,10.085786,models_full/model_BlendProperty7.pkl
+BlendProperty8,32,1.0,True,20,cuda,144,17.13306,models_full/model_BlendProperty8.pkl
+BlendProperty9,32,1.05,True,22,cuda,117,11.866717,models_full/model_BlendProperty9.pkl
