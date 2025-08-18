@@ -145,6 +145,15 @@ The application is built with a modular architecture to separate concerns and im
 
 The prototype guides the user through a simple, three-step workflow powered by several key technologies:
 
+
+    ```bash
+    # Navigate to the prototype folder
+    cd shell_hackathon_2025/Neuralnetics/prototype
+    
+    # Run the Streamlit app
+    streamlit run app.py
+    ```
+
 * **Step 1: Setup & Upload**: The user configures the environment, choosing between CPU and GPU (if a CUDA-enabled device is available), and uploads their data as a CSV file.
 
 * **Step 2: Configure & Predict**: The user selects which blend properties to predict and can choose to run inference on all rows or a specific subset.
