@@ -40,7 +40,13 @@ The repository is organized into two main directories: `final_submission`, which
 
 ### Prototype Video
 
-[![Watch the demo](https://img.youtube.com/vi/kGLGyveTEQo/0.jpg)](https://www.youtube.com/watch?v=kGLGyveTEQo)
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/kGLGyveTEQo" 
+    title="Prototype Demo" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 ---
 
