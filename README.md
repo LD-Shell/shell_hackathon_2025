@@ -47,8 +47,8 @@ To ensure reproducibility, it is highly recommended to set up a dedicated `conda
 1.  **Clone the Repository**: First, clone this repository to your local machine.
 
     ```bash
-    git clone [https://github.com/LD-Shell/shell_hackathon_2025.git](https://github.com/LD-Shell/shell_hackathon_2025.git)
-    cd your-repository-name
+    git clone https://github.com/LD-Shell/shell_hackathon_2025.git
+    cd shell_hackathon_2025
     ```
 
 2.  **Create a Conda Environment**: This command creates a new environment named `shell-hackathon` with the specific versions of Python used and other core packages.
