@@ -34,11 +34,16 @@ The repository is organized into two main directories: `final_submission`, which
         ├── features/                 # JSON files with feature lists for each model
         ├── models_full/              # Trained and serialized models for the app
         ├── pickles_for_inference.ipynb # <- Notebook to train and save models for the app
-        ├── prototype.mp4 — [Demo video](https://www.youtube.com/watch?v=kGLGyveTEQo)  # <- Demo video of the web app in action
+        ├── prototype.mp4             # <- Demo video of the web app in action
         └── requirements.txt          # <- Dependencies to run the prototype
 ```
 
 ---
+
+## Prototype Video
+
+[Watch the demo on YouTube](https://www.youtube.com/watch?v=kGLGyveTEQo)
+
 
 ## Setup and Installation
 
