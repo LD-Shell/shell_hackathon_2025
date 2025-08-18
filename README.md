@@ -38,11 +38,11 @@ The repository is organized into two main directories: `final_submission`, which
         └── requirements.txt          # <- Dependencies to run the prototype
 ```
 
----
-
-## Prototype Video
+### Prototype Video
 
 [Watch the demo on YouTube](https://www.youtube.com/watch?v=kGLGyveTEQo)
+
+---
 
 
 ## Setup and Installation
