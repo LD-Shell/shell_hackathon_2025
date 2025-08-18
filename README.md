@@ -34,19 +34,15 @@ The repository is organized into two main directories: `final_submission`, which
         ├── features/                 # JSON files with feature lists for each model
         ├── models_full/              # Trained and serialized models for the app
         ├── pickles_for_inference.ipynb # <- Notebook to train and save models for the app
-        ├── prototype.mp4             # <- Demo video of the web app in action
+        ├── prototype.mp4             # <- Demo video of the web app
         └── requirements.txt          # <- Dependencies to run the prototype
 ```
 
-### Prototype Video
+### Watch the Prototype Demo
 
-<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/kGLGyveTEQo" 
-    title="Prototype Demo" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+Click the preview below to watch the full demo video on YouTube.
+
+[![Prototype Demo GIF](Neuralnetics/prototype/prototype.gif)](https://www.youtube.com/watch?v=kGLGyveTEQo)
 
 ---
 
