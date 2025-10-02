@@ -4,7 +4,7 @@
 
 The world is in dire need of innovative solutions to solve growing energy demands at a sustainable rate. This project is our submission for the Shell 2025 Hackathon, which challenged participants to predict 10 Blend Properties obtained from mixing 5 fuel components using machine learning algorithms.
 
-## Public Leaderboard Score (MAPE) on 50% of test set: 95.47592%
+## Public Leaderboard Score on 50% of test set: 95.47592%
 
 ---
 
